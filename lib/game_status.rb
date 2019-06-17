@@ -61,6 +61,7 @@ def over?(board)
 end
 
 def winner(board)
+<<<<<<< HEAD
   if won?(board)
     return board[won?(board)[0]]
   else
@@ -70,4 +71,13 @@ def winner(board)
 
 
 
+=======
+  puts won?(board)
+  if won?(board)[0] == "O"
+    "O"
+  elsif won?(board)[0] == "X"
+    "X"
+  end
+  "meow!"
+>>>>>>> 891ded57fdc43b3bf9152a42769bc6638c45fb29
 end
